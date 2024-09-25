@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 .headerIcon {
@@ -82,7 +82,7 @@ header {
 .intro {
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 .introText {
@@ -118,6 +118,44 @@ header {
 .partners div img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.Services {
+  display: flex;
+  margin-top: 70px;
+}
+
+.ServicesMain {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #b9ff66;
+}
+
+.ServicesMain h3 {
+  font-size: 40px;
+  font-stretch: expanded;
+  font-family: "Space Grotesk";
+  font-weight: 400;
+}
+
+.Services p {
+  font-size: 20px;
+  padding-left: 60px;
+  width: 600px;
+  line-height: 30px;
+}
+
+.ServicesBlock {
+  display: grid;
+}
+
+.ServiceBox {
+}
+
+.SevicesBoxLeftSideMore {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 @media (max-width: 900px) {
